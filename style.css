@@ -1,0 +1,567 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-1
+{
+    /* display: block; */
+    position: fixed;
+    background-color: white;
+    padding-right: 101px;
+    z-index: 1;
+    /* margin-top: 100px; */
+}
+.nav-1 img
+{
+    height: 100px;
+    width: 100px;
+}
+table, tr, td
+{
+    border: 1px solid black;
+    text-align: center;
+    border: none;
+}
+.tb-1
+{
+    width: 65.6%;
+    padding-right: 7%;
+    /* padding: 0 600px 0 195px; */
+}
+table a
+{
+    text-decoration: none;
+    font-size: 12px;
+}
+table a:hover
+{
+    text-decoration: underline;
+}
+.td-2 a
+{
+    color: #697884;
+}
+.visit-1
+{
+    background-color: #304050;
+    color: white;
+    padding: 5px 2px;
+}
+.visit-2
+{
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+}
+.search
+{
+    /* border: 8px solid #414042; */
+    background-color:#414042;
+    border-radius: 40px;
+    padding: 11px 0px;
+}
+table .trends
+{
+    color: white;
+    /* background-color: black; */
+    padding: 7px 20px;
+}
+table input
+{
+    border: 2px solid #414042;
+    padding: 8px 9px 7px 10px;
+}
+.fa-magnifying-glass
+{
+    /* background-color: black; */
+    color: white;
+    padding: 7px 20px 7px 5px;
+}
+.fa-heart
+{
+    background-color:#304050;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-bag-shopping
+{
+    background-color:#304050;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;   
+}
+.logo-2 a:hover
+{
+    text-decoration: none;
+}
+/* ---------------nav-2-------------------------- */
+.nav-2
+{
+    background-color: #414042;
+    position: fixed;
+    /* display: block; */
+    z-index: 2;
+    margin-top: 100px;
+    width: 1344px;
+    height: 40px;
+}
+.nav-2-mid-nav-1
+{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.nav-2-mid-nav-1 img
+{
+    height: 30px;
+}
+.nav-2-mid-nav-2
+{
+    background-color: #414042;
+}
+.nav-2-mid-nav-2 .ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+.ul li
+{
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+}
+.men-main
+{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding:20px 0 20px 20px;
+    margin-left: -250px;
+    /* margin-top: 3px; */
+}
+.men-main
+{
+    display: none;
+}
+.nav-2-mid-nav-2 li:nth-child(1):hover .men-main
+{
+    display:flex;
+    position: absolute;
+}
+.men-main a
+{
+    text-decoration: none;
+    color: gray;
+}
+.men-main a:hover
+{
+    text-decoration: underline;
+}
+.men-main li
+{
+    list-style-type: none;
+}
+.cat-a a
+{
+    color: black;
+}
+.cat-a a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.cat
+{
+    padding-left: 40px;
+}
+.men-main h5
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.men-1
+{
+    line-height: 25px;
+}
+.men-2
+{
+    padding-top: 50px;
+    line-height: 25px;
+    padding-left: 50px;
+}
+.accessories a
+{
+    text-decoration: none;
+    color: black;
+}
+.men-heading a:hover
+{
+    text-decoration: none;
+}
+/* Women */
+.women-main
+{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding:20px 0 20px 20px;
+    margin-left: -335px;
+    /* margin-top: 3px; */
+}
+.women-main
+{
+    display: none;
+}
+.nav-2-mid-nav-2 li:nth-child(2):hover .women-main
+{
+    display: flex;
+    position: absolute;
+}
+.women-main a
+{
+    text-decoration: none;
+    color: gray;
+}
+.women-main a:hover
+{
+    text-decoration: underline;
+}
+.women-main li
+{
+    list-style-type: none;
+}
+.women-cat-a a
+{
+    color: black;
+}
+.women-cat-a a:hover
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+.women-cat
+{
+    padding-left: 40px;
+}
+.women-main h5
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold
+}
+.women-1
+{
+    line-height: 25px;
+}
+.women-2
+{
+    padding-top: 50px;
+    line-height: 25px;
+    padding-left: 60px;
+}
+.women-3
+{
+    padding-left: 60px;
+    padding-top: 50px;
+    line-height: 25px;
+}
+.women-nav-heading a:hover
+{
+    text-decoration: none;
+}
+/* ---------------------------------------- */
+/* kids */
+
+.kids-main
+{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding:20px 0 20px 20px;
+    margin-left: -446px;
+    /* margin-top: 3px; */
+}
+.kids-main
+{
+    display: none;
+}
+.nav-2-mid-nav-2 li:nth-child(3):hover .kids-main
+{
+    display: flex;
+    position: absolute;
+}
+.kids-main a
+{
+    text-decoration: none;
+    color: gray;
+}
+.kids-main a:hover
+{
+    text-decoration: underline;
+}
+.kids-main li
+{
+    list-style-type: none;
+}
+.kids-cat-a a
+{
+    color: black;
+}
+.kids-cat-a a:hover
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+.kids-cat
+{
+    padding-left: 40px;
+}
+.kids-main h5
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold
+}
+.kids-1
+{
+    line-height: 25px;
+}
+.kids-2
+{
+    padding-top: 50px;
+    line-height: 25px;
+    padding-left: 0px;
+}
+.kids-3
+{
+    padding-left: 60px;
+    padding-top: 50px;
+    line-height: 25px;
+}
+.kids-nav-heading a:hover
+{
+    text-decoration: none;
+}
+/* ------------------------ */
+/* brands */
+
+.brands-main
+{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding:20px 0 20px 20px;
+    margin-left: -529px;
+    /* margin-top: 3px; */
+}
+.brands-main
+{
+    display: none;
+}
+.nav-2-mid-nav-2 li:nth-child(4):hover .brands-main
+{
+    display: flex;
+    position: absolute;
+}
+.brands-main a
+{
+    text-decoration: none;
+    color: gray;
+}
+.brands-main a:hover
+{
+    text-decoration: underline;
+}
+.brands-main li
+{
+    list-style-type: none;
+}
+.brands-cat-a a
+{
+    color: black;
+}
+.brands-cat-a a:hover
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+.brands-cat
+{
+    padding-left: 40px;
+}
+.brands-main h5
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold
+}
+.brands-1
+{
+    line-height: 25px;
+}
+.brands-2
+{
+    padding-top: 50px;
+    line-height: 25px;
+    padding-left: 60px;
+}
+.brands-3
+{
+    padding-left: 60px;
+    padding-top: 50px;
+    line-height: 25px;
+}
+.brands-nav-heading
+{
+    text-decoration: none;
+}
+/* -------------------------- */
+.nav-heading h5
+{
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.nav-heading a
+{
+    text-decoration: none;
+    color: white;
+}
+/* --------------- */
+.img-1 a img
+{
+    position: relative;
+    /* z-index: ; */
+    margin-top:164px;
+    width:1344px;
+}
+.img-1 a img:hover
+{
+    transform: scale(1.01);
+}
+.imag-3 img
+{
+    width:1344px;
+}
+.imag-3 img:hover
+{
+    transform: scale(1.01);
+}
+.sec-2
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.sec-2 img
+{
+    width: 335px;
+}
+.sec-2 img:hover
+{
+    transform: scale(1.02);
+}
+.sec-3 img
+{
+    width:1344px;   
+}
+.sec-3 img:hover
+{
+    transform: scale(1.01);
+}
+.sec-4
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+}
+.sec-4 img
+{
+    width: 335px;
+}
+.sec-4 img:hover
+{
+    transform: scale(1.02);
+}
+.sec-5 img
+{
+    width: 1344px;
+}
+.sec-5 img:hover
+{
+    transform: scale(1.01);
+}
+.sec-6
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 240px;
+    padding: 10px 0;
+}
+/* footer */
+.bgg
+{
+    background-color: #2C4152;
+    color: rgb(196, 188, 188);
+}
+.bgg a
+{
+    color:rgb(196, 188, 188);
+    text-decoration: none;
+}
+.bgg a:hover
+{
+    text-decoration: underline;
+}
+.bgg li
+{
+    line-height: 30px;
+}
+.bgg h5
+{
+    padding-bottom: 10px;
+}
+hr
+{
+    background-color: wheat;
+    color:wheat ;
+}
+.main-footer
+{
+    background-color: #2C4152;
+}
+.mid-footer-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0 125px;
+}
+.mid-footer-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    margin: 0px 125px;
+}
